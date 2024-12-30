@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .video-player {
+    max-width: 800px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  video {
+    width: 100%;
+    display: block;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #222;
+  }
+  
+  .play-pause,
+  .fullscreen {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .progress-bar {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .time {
+    min-width: 100px;
+    text-align: center;
+  }
+  
+  .volume {
+    width: 100px;
+  }
+  
+  .playback-speed {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
